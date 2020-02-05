@@ -12,6 +12,6 @@ def input_to_index(arg)
 end
 
 def move (board, position, choice = "X")
-  pry
+  binding.pry
   board[input_to_index(position)] = choice
 end
