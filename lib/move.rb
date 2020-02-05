@@ -8,13 +8,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def is_i?
-  !!(self =~ /\A[-+]?[0-9]+\z/)
-end
-
 # code your input_to_index and move method here!
 def input_to_index(arg)
-    if arg.is_i?
+    if !!(arg =~ /\A[-+]?[0-9]+\z/)
         arg = arg.to_i
         if arg > 0
             arg = arg - 1
