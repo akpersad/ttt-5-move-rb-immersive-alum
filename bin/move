@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-print "Welcome to Tic Tac Toe!"
 require_relative '../lib/move.rb'
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+print "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
