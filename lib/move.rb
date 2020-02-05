@@ -11,6 +11,6 @@ def input_to_index(arg)
   arg = arg.to_i - 1
 end
 
-def move (board, position, choice)
+def move (board, position, choice = "X")
 
 end
