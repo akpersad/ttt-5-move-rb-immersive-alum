@@ -14,12 +14,16 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(arg)
-  arg = arg.to_i
-  if arg > 0
-    arg = arg - 1
-  else
-    arg
-  end
+    if arg.is_i?
+        arg = arg.to_i
+        if arg > 0
+            arg = arg - 1
+        else
+            arg
+        end
+    else
+        arg = -1
+    end
 end
 
 
