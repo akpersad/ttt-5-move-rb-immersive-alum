@@ -26,6 +26,6 @@ end
 
 
 def move (board, position, choice = "X")
-  board[input_to_index(position)] = choice
+  board[position] = choice
   return board
 end
