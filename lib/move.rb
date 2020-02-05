@@ -10,7 +10,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(arg)
-  # binding.pry
     if !!(arg =~ /\A[-+]?[0-9]+\z/) || arg == 0
         arg = arg.to_i
         if arg > 0
