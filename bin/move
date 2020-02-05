@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
-prints "Welcome to Tic Tac Toe!"
+print "Welcome to Tic Tac Toe!"
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
